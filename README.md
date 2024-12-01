@@ -1,6 +1,6 @@
 # **AUTO CLICKER**
 > Copyright (c) 2024 Halil İbrahim ÇAKIR \
-Licensed under the MIT License. See [LISANCE](https://github.com/Halil-UtrioN/Python-AutoClicker/blob/main/LICENSE) file for details.
+Licensed under the MIT License. See [LISANCE](https://github.com/Halil-UtrioN/AutoClicker/blob/main/LICENSE) file for details.
 
 ## Explanation
 This project makes an automatic mouse click at the time (seconds) you specify. I plan to continue updating it as time allows, so that it becomes more useful.
