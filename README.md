@@ -8,6 +8,7 @@ This project makes an automatic mouse click at the time (seconds) you specify. I
 ## Setup *(for developers)*
 - Clone the repository
 - Run terminal in the root directory of the project
+- Create a Virtual Environment **_venv_** for yourself
 - Start the virtual environment
     > for Windows:
     ```bash
