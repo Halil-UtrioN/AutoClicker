@@ -1,0 +1,8 @@
+Auto Clicker Yazılım Lisans Sözleşmesi
+
+Bu yazılım, açık kaynak özgür yazılımdır.
+Kullanımdan kullanıcı sorumludur.
+Kullanıcı, yazılımı indirerek bu şartları kabul etmiş sayılır.
+Kaynak: https://github.com/Halil-UtrioN/AutoClicker
+
+Yazılımı yüklemeyi kabul ediyorsanız, 'Evet' seçeneğini tıklayın.
