@@ -4,10 +4,20 @@ import pyautogui
 import time
 from datetime import datetime  # Zaman bilgisini almak için
 import logging # Hata mesajlarını kaydetmek için
+import os # Dosya işlemleri için
+
+#AutoClick.log dosyasını oluşturmak için konum belirliyoruz.
+userDir = os.path.expanduser('~') #Kullanıcı klasörünü buluyoruz.
+appDir = os.path.join(userDir, 'AutoClick') #Log dosyasını oluşturacağımız klasörü belirliyoruz.
+# Klasör yoksa oluştur
+if not os.path.exists(appDir):
+    os.makedirs(appDir)
+
+log_path = os.path.join(appDir, "AutoClick.log") # Log dosyasının tam yolu
 
 # Logging yapılandırması
 logging.basicConfig(
-    filename='AutoClick.log',
+    filename=log_path,
     level=logging.INFO,
     format='%(asctime)s - %(levelname)s - %(message)s',
     datefmt='%Y-%m-%d %H:%M:%S'
